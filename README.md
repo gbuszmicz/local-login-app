@@ -95,11 +95,6 @@ const combineMiddleware = applyMiddleware(
 $ npm run lint
 ```
 
-#### Create APK file to distribute
-To distribute this Android application via Google Play store or to other devices, you'll need to generate a signed release APK.
-Follow this [oficial doc](https://facebook.github.io/react-native/docs/signed-apk-android.html)
-
-
 ### Redux DevTools
 Update ```src/store/configureStore.js```:
 
@@ -168,10 +163,10 @@ Use ```Redux Devtools``` [Chrome extension](https://chrome.google.com/webstore/d
 Also you can select ```Debug in Chrome``` within the emulator ([Genymotion](https://www.genymotion.com/) for example) to check redux states in the inspection window
 
 
-### Bundling for release
-```shell
-$ npm run build    # or: react-native bundle
-```
+### Bundling APK file for release
+To distribute this Android application via Google Play store or to other devices, you'll need to generate a signed release APK.
+Follow the [oficial documentation](https://facebook.github.io/react-native/docs/signed-apk-android.html)
 
-### Questions?
+
+### Comments and issues
 Feel free to contact me in [twitter](https://twitter.com/gbuszmicz) or [create an issue](https://github.com/gbuszmicz/local-login-app/issues/new)
